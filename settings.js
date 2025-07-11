@@ -22,9 +22,9 @@ module.exports = {
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys", // Baileys version
 
   // ===== OWNER & DEVELOPER SETTINGS =====
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "263714757857", // Owner WhatsApp number
-  OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ᴍᴀʟᴠɪɴ ᴋɪɴɢ", // Owner name
-  DEV: process.env.DEV || "263714757857", // Developer contact number
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "254745314237", // Owner WhatsApp number
+  OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "RODNEY", // Owner name
+  DEV: process.env.DEV || "254745314237", // Developer contact number
   DEVELOPER_NUMBER: '263714757857@s.whatsapp.net', // Developer WhatsApp ID
 
   // ===== AUTO-RESPONSE SETTINGS =====
@@ -33,7 +33,7 @@ module.exports = {
   AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*Just seen ur status 😆 🤖*", // Status reply message
   READ_MESSAGE: process.env.READ_MESSAGE || "false", // Mark messages as read automatically?
   REJECT_MSG: process.env.REJECT_MSG || "*📵 Calls are not allowed on this number unless you have permission. 🚫*", // Message on rejected call
-  ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/xshsmk",
+  ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/eeeypw.jpg",
 // add img for alive msg
 
   LIVE_MSG: process.env.LIVE_MSG || "> ʙᴏᴛ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\nᴋᴇᴇᴘ ᴜsɪɴɢ ✦ᴍᴀʟᴠɪɴ xᴅ✦ ғʀᴏᴍ ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ ɪɴᴄ⚡\n\n\n*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ\n\n> ɢɪᴛʜᴜʙ :* github.com/XdKing2/MALVIN-XD",
@@ -51,7 +51,7 @@ module.exports = {
   AUTO_RECORDING: process.env.AUTO_RECORDING || "false", // Auto-record voice notes
   AUTO_TYPING: process.env.AUTO_TYPING || "false", // Show typing indicator
   MENTION_REPLY: process.env.MENTION_REPLY || "false", // Reply when mentioned
-  MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/qumhu4.jpg", // Menu image URL
+  MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/eeeypw.jpg, // Menu image URL
 
   // ===== SECURITY & ANTI-FEATURES =====
   ANTI_DELETE: process.env.ANTI_DELETE || "true", // Recover deleted messages
